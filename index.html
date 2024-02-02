@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RO H€AT</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        *{
+            font-family: 'Protest Revolution', sans-serif!important;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        h1 > span{
+            animation: blink 0.5s infinite alternate;
+        }
+
+        @keyframes blink {
+            0% {
+                color: yellow;
+            }
+            100% {
+                color: transparent;
+            }
+        }
+
+    </style>
 </head>
 <body>
-    RO H€AT
+    <div>
+        <h1>R O &nbsp; H <span style="color: yellow;">€</span> A T</h1>
+    </div>
 </body>
 </html>
